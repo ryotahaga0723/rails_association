@@ -3,3 +3,4 @@ class AddReferencesOrdersAddress < ActiveRecord::Migration[5.1]
     add_reference :orders, :address
   end
 end
+ 
